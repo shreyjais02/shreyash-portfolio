@@ -1,0 +1,12 @@
+.header-class {
+    background-color: #dfccc5;
+    text-align: center;
+    /* padding: 1px; */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.background-class {
+    background-color: #f5f0ed;
+}
