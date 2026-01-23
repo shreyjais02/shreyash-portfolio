@@ -1,12 +1,31 @@
-.header-class {
+.aside-class {
     background-color: #dfccc5;
     text-align: center;
-    /* padding: 1px; */
+    padding: 10px;
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pfp-image {
+    border-radius: 50%;
+    height: auto;
+    width: auto;
+}
+.background-class {
+    background-color: #f5f0ed;
+}
+.main-heading {
+    font-size: 50px;
 }
 body {
     margin: 0;
     padding: 0;
 }
-.background-class {
-    background-color: #f5f0ed;
-}
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+} 
