@@ -10,7 +10,7 @@
     align-items: center;
 }
 .pfp-image {
-    border-radius: 50%;
+    border-radius: 10px;
     height: auto;
     width: auto;
 }
