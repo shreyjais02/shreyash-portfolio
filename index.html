@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shreyash Jaiswal | Data Science, ML &amp; Web Development</title>
+  <meta name="description" content="Portfolio of Shreyash Jaiswal: Data Science, Machine Learning, NLP and Oracle Fusion developer.">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" id="brand"></a>
+      <nav class="links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero container">
+      <p class="eyebrow" id="tagline"></p>
+      <h1 id="hero-name"></h1>
+      <p class="lead" id="headline"></p>
+      <div class="actions" id="hero-actions"></div>
+    </section>
+
+    <section id="about" class="container section">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div id="about-text"></div>
+        <ul class="facts" id="facts"></ul>
+      </div>
+    </section>
+
+    <section id="experience" class="container section">
+      <h2>Experience</h2>
+      <div class="timeline" id="experience-list"></div>
+    </section>
+
+    <section id="projects" class="container section">
+      <h2>Projects</h2>
+      <div class="cards" id="project-list"></div>
+    </section>
+
+    <section id="skills" class="container section">
+      <h2>Skills</h2>
+      <div id="skill-list"></div>
+    </section>
+
+    <section id="education" class="container section">
+      <h2>Education &amp; Certifications</h2>
+      <div class="two-col">
+        <div id="education-list"></div>
+        <div id="cert-list"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="container section">
+      <h2>Get in touch</h2>
+      <p>Open to opportunities and collaborations. Feel free to reach out.</p>
+      <div class="actions" id="contact-links"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">© <span id="year"></span> <span id="footer-name"></span></div>
+  </footer>
+
+  <script src="content.js"></script>
+  <script src="assets/main.js"></script>
+</body>
+</html>
